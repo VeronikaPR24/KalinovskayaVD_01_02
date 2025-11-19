@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:background="#619BDE">
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/Geometry"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/formulaImage"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/circle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    
+    <Spinner
+        android:id="@+id/shapePicker"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    
+    <EditText
+        android:id="@+id/inputLayout"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:hint="@string/Hint"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/calculateButton"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn"
+        android:text="@string/Rachet"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

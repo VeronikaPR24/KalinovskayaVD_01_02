@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KalinovskayaVD_01_02</string>
+    <string name="Start">Начать</string>
+    <string name="Geometry">Геометрические фигуры</string>
+    <string name="Hint">Введите данные для расчета</string>
+    <string name="Rachet">Выполнить расчет</string>
+</resources>
